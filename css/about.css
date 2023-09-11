@@ -47,14 +47,10 @@
     color: #ffffff;
 }
 
-.subgroth{
-    width: 50%;
-    height: auto;
-    float: left;
-}
+
 
 .leftgroth h1{
-    font-size: 45px;
+    
   padding-bottom: 14px;
 }
 .leftgroth h3{
@@ -175,4 +171,117 @@
     transform: scale(1.1);
 
 }
+
+/******************
+    responsive is from hare...
+**********************/
+@media only screen and (min-width: 375px){
+    .serviceItem{
+        width: 100%;
+    }
+    .subgroth{
+        width: 100%;
+        float: unset;
+    }
+    .leftgroth{
+        padding: 0 20px;
+    }
+    .leftgroth h1{
+        font-size: 30px;
+    }
+    .rightgroth {
+        padding-top: 20px;
+      }
+    
+
+    .rightgroth > div{
+        margin-left: 13px;
+    }
+    .rightgroth > div > div:nth-child(2) {
+        width: 50%;
+      }
+    .rightgroth > div > div:last-child {
+        width: 20%;
+      }
+    .goal{
+        padding-bottom: 60px;
+    }
+
+    .team{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:768px){
+    .serviceItem{
+        width: 49%;
+    }
+    .rightgroth > div > div:nth-child(2) {
+        width: 50%;
+      }
+    .rightgroth > div > div:last-child {
+        width: 9%;
+      }
+
+      .team{
+        width: 32%;
+        margin-top: 0;
+    }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:1024px){
+    .subgroth{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    
+    .leftgroth{
+        padding: 0 0;
+    }
+    .leftgroth h1{
+        font-size: 45px;
+    }
+    .rightgroth {
+        padding-top: 0px;
+      }
+      .rightgroth > div > div:last-child {
+        width: 15%;
+      }
+
+      .goal{
+        padding-bottom: 0px;
+    }
+
+
+
+}
+
+
+
+
 
