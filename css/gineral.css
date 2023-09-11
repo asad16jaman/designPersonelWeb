@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'nunito';
+    src: url(./../Nunito-VariableFont_wght.ttf );
+} 
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito;
+}
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #0354cc;
+    --secondary: #21abf9;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --bgImg1:linear-gradient(rgba(77, 45, 183,0.5),rgba(14, 33, 160,0.5));
+  }
+/* general class is hare...*/
+
+.active{
+  color:blue;
+}
+
+.bodyWidth{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.bodyTopPadding{
+    padding: 70px 0;
+}
+
+.bodyNormalTxt{
+    font-size: 17px;
+  margin-top: 8px;
+  line-height: 28px;
+  color: #000000c9;
+}
+.bodyLargTxt{
+    font-size: 35px;
+}
+
+/* general class is ended...*/
+
+  #navigation{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  
+  }
+  #navigation .logo{
+      color: var(--blue);
+    font-size: 31px;
+    font-weight: 700;
+    font-family: nunito;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo span:first-child{
+      padding-right: 5px;
+  }
+
+
+
+  #navigation nav ul{
+      list-style: none;
+  }
+  #navigation nav ul li{
+      float: left;
+      position: relative;
+  }
+  #navigation nav ul li a{
+  text-decoration: none;
+    font-family: nunito;
+    font-weight: 200;
+    padding: 23px 30px;
+    display: inline-block;
+  }
+  .getStart a{
+      background-color: var(--blue);
+      color: var(--white);
+      font-family: nunito;
+      font-weight: 700 !important;
+  }
+  #navigation nav ul li > div{
+      position: absolute;
+    left: 29px;
+    top: 77%;
+    z-index: 1245;
+    background: #fff;
+   
+  }
+  #navigation nav ul li > div a{
+      border: 1px solid gray;
+    padding: 15px 48px;
+    box-shadow: 1px 0px 3px gray;
+  }
+
+  .staySection{
+    width: 100%;
+    height: 88px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: var(--bgImg1),url(./../asset/2.jpg) no-repeat 50% 50% / cover;
+}
+
+.staySection div > span{
+    font-size: 18px;
+    margin-right: 10px;
+    color:#fff
+}
+.staySection div > span a{
+    color: blue;
+    text-decoration: none;
+}
+.finance{
+    width: 60%;
+  border-left: 2px solid #9700ffb2;
+  padding-left: 20px;
+}
+
+
+
+
+/*footer section start from hare...*/
+footer{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #ffffff;
+    text-align: left;
+  }
+  .detailFooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0;
+    flex-wrap: wrap;
+    
+  }
+  .detailFooter div{
+    width: 20%;
+  
+  }
+  .detailFooter div:first-child{
+    width: 30%;
+  }
+  .detailFooter div:first-child span{
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .detailFooter div:first-child p{
+    line-height: 28px;
+    margin-top: 23px;
+  }
+  
+  .detailFooter h3{
+    margin-bottom: 45px;
+  }
+  .detailFooter ul{
+    list-style: none;
+  }
+  .detailFooter ul li{
+    margin-bottom: 10px;
+  }
+  
+  #goToHome{
+    position: fixed;
+    right: 20px;
+    bottom: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    border-radius: 5px;
+    z-index: 1245;
+  
+  }
+  #goToHome a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    font-weight: 200;
+  
+  }
+
+
+  /**************************
+    responsive section is started from hare...
+  *****************************/
+  @media only screen and (min-width:375px){
+
+    #navigation{
+      flex-direction: column;
+    }
+
+    .logo{
+      display: flex;
+      justify-content: space-between;
+      padding-right: 50px;
+      margin: 7px 0 20px 0;
+    }
+
+    .navicon{
+      cursor: pointer;
+    }
+
+    #navigation nav{
+      background-color: rgba(128, 128, 128, 0.219);
+      padding: 10px 0;
+      display: none;
+    }
+
+    #navigation nav ul{}
+    #navigation nav ul li{
+      float: unset;
+    }
+    #navigation nav ul li a{
+      padding: 16px 20px;
+    }
+    .finance{
+      width: 90%;
+    }
+
+    .detailFooter div{
+      width: 33%;
+      margin-bottom: 70px;
+    
+    }
+    .detailFooter div:first-child{
+      width: 80%;
+    }
+  } 
+
+  @media only screen and (min-width:1024px){
+    .navicon{
+      display: none;
+    }
+    #navigation{
+      flex-direction: row;
+    }
+    
+    #navigation nav{
+      background-color: transparent;
+      padding: 0 0;
+      display: block;
+    }
+    #navigation nav ul li{
+      float: left;
+      position: relative;
+  }
+
+  .logo {
+      margin: 0;
+  }
+  .detailFooter div{
+    width: 20%;
+  
+  }
+  .detailFooter div:first-child{
+    width: 30%;
+  }
+
+  }
+
+

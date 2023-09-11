@@ -1,0 +1,96 @@
+.padtop{
+    padding-top: 70px;
+}
+.fstRow,.sndRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accSub{
+    width: 30%;
+    height: 230px;
+    background: url(./../asset/b6.jpg) no-repeat 0 0 / cover;
+    border-radius: 20px;
+    position: relative;
+}
+.accsub2{
+    background: url(./../asset/b5.jpg) no-repeat 0 0 / cover;
+   
+}
+.accsub3{
+    background: url(./../asset/b7.jpg) no-repeat 0 0 / cover;
+}
+.detailAcc{
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+    
+}
+
+.detailAcc h3{
+    margin-left: 20px;
+  margin-top: 31px;
+  font-size: 22px;
+  transition: 0.1s;
+}
+.detailAcc p{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.detailAcc h3:hover{
+    color:blue;
+}
+
+.sndcol{
+    position: relative;
+  width: 30%;
+  height: auto;
+  border: 1px solid #00000040;
+  padding: 30px;
+  border-radius: 8px;
+}
+.sndcol div{
+    position: absolute;
+  font-size: 30px;
+  color: blue;
+  transition: 0.2s;
+}
+.sndcol div i{}
+.sndcol h2{
+    margin: 60px 0 14px 0;
+  color: #000c;
+  transition: 0.1s;
+}
+.sndcol p{
+    font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: #00000085;
+
+}
+.sndcol button{
+    background-color: transparent;
+    padding: 9px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid blue;
+  font-size: 17px;
+  cursor: pointer;
+    
+}
+
+.sndcol:hover .my{
+    transform: translateY(-10px);
+    /* background-color: red; */
+}
+.sndcol h2:hover{
+    color: blue;
+}
+
+
+
+

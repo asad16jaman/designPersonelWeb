@@ -1,0 +1,178 @@
+
+
+:root{
+    --bgImg1:linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5));
+}
+
+
+
+
+
+
+
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.serviceItem{
+    width: 49%;
+    border: 1px solid #0000000f;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 30px;
+  
+}
+
+.serviceItem h2{
+    color: #000000d6;
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+
+/* groupth detail section is hare....*/
+#groweDetail{
+    background: linear-gradient(rgba(39, 158, 255,0.5),rgba(39, 158, 255,0.5)),url(../asset/6.jpg) no-repeat 0,0 / cover;
+    color: #ffffff;
+    overflow: hidden;
+}
+.hidenoverflow{
+    overflow: hidden;
+}
+.whitcolor{
+    color: #ffffff;
+}
+
+.subgroth{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.leftgroth h1{
+    font-size: 45px;
+  padding-bottom: 14px;
+}
+.leftgroth h3{
+    font-size: 21px;
+  font-weight: 400;
+  padding-bottom: 11px;
+}
+
+
+.rightgroth > div{
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 31px;
+    padding-top: 21px;
+    margin-left: 30px;
+}
+
+.rightgroth > div:first-child{
+    padding-top: none;
+}
+
+.rightgroth > div:last-child{
+    border: none;
+    padding-bottom: none;
+}
+
+.rightgroth > div > div:first-child{
+    width: 75px;
+  height: 75px;
+  background-color: #fff;
+  color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  
+}
+.rightgroth > div > div:nth-child(2){
+    width: 60%;
+}
+
+.rightgroth > div > div:last-child{
+   width: 15%;
+}
+.subgroth.goal img{
+    width: 100%;
+    border-radius: 10px;
+}
+.subgroth.goal p{
+    margin: 26px 22px 26px 0px;
+}
+
+.subgroth.goal button{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+.team{
+    width: 32%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    overflow: hidden;
+    height: 360px;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.team > div{
+    position: absolute;
+    width: 100%;
+    top:90px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.team > div h4,.team > div p{
+    text-align: center;
+}
+.team > div > div {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.team > div > div img{
+    width: 100%;
+}
+
+.mmm{
+
+    height: 47px;
+    bottom: 0px;
+    margin-top: 169px;
+    text-align: center;
+    
+}
+
+.mmm i{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    color:#fff;
+    padding-top:10px
+}
+
+.team:hover {
+    box-shadow: 12px 9px 13px -10px black;
+    transform: scale(1.1);
+
+}
+

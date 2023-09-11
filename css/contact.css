@@ -1,0 +1,87 @@
+.diffrentway{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.diffrentway div{
+    width: 33%;
+}
+.diffrentway div span i{
+    color: blue;
+    font-size: 20px;
+   
+}
+.diffrentway div span:last-of-type{
+    font-size: 24px;
+  font-weight: 200;
+  color: black;
+  margin-left: 22px;
+}
+.diffrentway div p{
+    margin-left: 45px;
+  color: #000000d4;
+  font-weight: 200;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.helf{
+    width: 48%;
+
+}
+
+.helf form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.helf input, textarea{
+    padding: 10px 10px;
+  font-size: 18px;
+  border: 1px solid aliceblue;
+  background: #0000000d;
+  width: 100%;
+  resize: none;
+  margin-top:12px ;
+
+}
+
+.helf input[name="name"],.helf input[name="email"]{
+  width: 45%;
+  margin-top:none ;
+}
+.helf input[name="email"]{
+
+}
+
+.helf input:focus,
+.helf textarea:focus
+{
+    outline: 3px solid #0000ff0d;
+    
+}
+
+input[type="submit"]{
+    width: auto;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 25px;
+    border:none;
+    outline: none;
+    margin-left: 80%;
+}
+
+.mapright{
+    margin-top: 20px;
+}
+
+
+
