@@ -4,6 +4,7 @@
 .fstRow,.sndRow{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .accSub{
@@ -91,6 +92,31 @@
     color: blue;
 }
 
+/****************************
+responsive start from hare....
+**********************************/
+
+@media only screen and (min-width:375px){
+  .accSub{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sndcol{
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .accSub{
+    width: 32%;
+    margin-bottom: 20px;
+  }
+  .sndcol{
+    width: 32%;
+    margin-top: 20px;
+  }
+}
 
 
 
