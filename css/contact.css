@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .helf{
@@ -81,6 +82,60 @@ input[type="submit"]{
 
 .mapright{
     margin-top: 20px;
+}
+
+/******************************
+    responsive is from hare....
+*******************************/
+
+@media only screen and (min-width:375px){
+    .diffrentway div{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    .helf{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:768px){
+    .diffrentway div{
+        width: 33%;
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .helf{
+        width: 100%;
+    
+    }
+
+
+
+
+
+
+}
+@media only screen and (min-width:1024px){
+    .diffrentway div{
+        width: 33%;
+    }
+
+
+
+
+
+
 }
 
 
