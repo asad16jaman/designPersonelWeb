@@ -32,10 +32,7 @@
     flex-wrap: wrap;
 }
 
-.helf{
-    width: 48%;
 
-}
 
 .helf form{
     display: flex;
@@ -129,6 +126,11 @@ input[type="submit"]{
 @media only screen and (min-width:1024px){
     .diffrentway div{
         width: 33%;
+    }
+
+    .helf{
+        width: 48%;
+    
     }
 
 
